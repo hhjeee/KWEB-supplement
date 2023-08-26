@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+}
+
+/*네비게이션 바*/
+#header {
+  background-color: white;
+  box-shadow: 3px 3px 5px lightgray;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+#logo {
+  margin: 15px 0 2px 15px;
+}
+button {
+  margin-top: 17px;
+  border: 0;
+  background-color: transparent;
+  font-weight: bold;
+  cursor: pointer;
+}
+#sort {
+  margin-right: 15px;
+}
+
+/*posts*/
+.post {
+  width: 500px;
+  height: auto;
+
+  padding: 15px;
+  margin: 0 auto;
+
+  background-color: white;
+  border: 1px solid lightgray;
+}
+.post:hover {
+  opacity: 0.7;
+}
+.profile {
+  width: 25px;
+  height: 25px;
+  background-color: #dbdbdb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.username {
+  font-weight: bold;
+  display: inline-block;
+  transform: translate(10%, -100%);
+}
+.image {
+  width: 500px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.likes {
+  font-weight: bold;
+  display: inline-block;
+  transform: translate(20%, -10%);
+}
+
+/*top버튼*/
+#top {
+  background-color: #fb3958;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  left: 9px;
+  top: 16px;
+}
+html {
+  scroll-behavior: smooth;
+}
